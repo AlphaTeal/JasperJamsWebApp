@@ -1,0 +1,11 @@
+.center-parent {
+    text-align: center;
+}
+
+.center-parent {
+    display: inline-block;
+}
+
+h3 {
+    color: darkgray;
+}
