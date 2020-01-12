@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jasper Jams!</title>
+
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+
+    <!-- Development version of Vue. change to production later -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div class="center-parent">
+        <div class="center-child">
+            <h1>Jasper Jams!</h1>
+            <h3>Collaborative Party Playlist System</h3>
+            <h5>Welcome, DJ!</h5>
+            <form action="/verifyDJ" method="POST">
+                <label for="PIN">Super Secret DJ PIN:</label>
+                <input name="PIN" type="password" placeholder="••••">
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>

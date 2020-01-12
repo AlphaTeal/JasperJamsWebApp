@@ -2,10 +2,15 @@
   "name": "jasperjamswebapp",
   "version": "0.0.1",
   "description": "Mobile-oriented web app for collaborative playlist creation at parties",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joey Gore",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mopidy": "^1.0.1"
+  }
 }
